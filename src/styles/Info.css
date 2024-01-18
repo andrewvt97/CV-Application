@@ -1,3 +1,4 @@
+/* Personal Info Component */
 .personal-info {
     background-color: hsl(221, 63%, 29%);
     color: #ffffff;
@@ -6,8 +7,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-left:700px;
-    margin-bottom: 1100px;
+   
     /* margin-right: 0px; */
     gap: 1px;
 }
@@ -19,4 +19,23 @@
 
 .details {
     display: flex;
+}
+
+
+/* Education Info Component */
+.education-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgb(194, 194, 194);
+}
+
+.firstline-ed {
+    display: flex;
+    gap: 50px;
+}
+
+.secondline-ed {
+    display: flex;
+    gap: 50px;
 }

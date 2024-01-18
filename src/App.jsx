@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import PersonalInfo from './PersonalInfo'
 import PersonalInput, { initialPerson } from './PersonalInput.jsx'
+import EducationInfo from './EducationInfo.jsx'
 import './App.css'
 
 function App() {
@@ -14,11 +15,8 @@ function App() {
       </div>
       <div class = "display-section">
         <PersonalInfo person={person}></PersonalInfo>
+        <EducationInfo></EducationInfo>
       </div>
-      
-      
-    
-    
     </div>
       
   )
