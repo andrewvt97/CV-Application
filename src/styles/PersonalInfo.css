@@ -1,0 +1,22 @@
+.personal-info {
+    background-color: hsl(221, 63%, 29%);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left:700px;
+    margin-bottom: 1100px;
+    /* margin-right: 0px; */
+    gap: 1px;
+}
+
+.name {
+    font-size: 50px;
+    margin: 0 100px 0 100px;
+}
+
+.details {
+    display: flex;
+}
