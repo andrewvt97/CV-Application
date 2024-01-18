@@ -1,17 +1,22 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import PersonalInfo from './PersonalInfo'
-import PersonalInput from './PersonalInput.jsx'
+import PersonalInput, { initialPerson } from './PersonalInput.jsx'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [person, setPerson] = useState(initialPerson);
 
   return (
     <div class = "main-page">
-      <PersonalInfo></PersonalInfo>
-      <PersonalInput></PersonalInput>
+      <div class = "input-section">
+        <PersonalInput onPersonChange={setPerson}></PersonalInput>
+      </div>
+      <div class = "display-section">
+        <PersonalInfo person={person}></PersonalInfo>
+      </div>
+      
+      
     
     
     </div>
