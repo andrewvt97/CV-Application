@@ -22,7 +22,8 @@
 
 .input-section {
   display: flex;
-  flex-direction: columnn;
+  flex-direction: column;
+  /* background-color: black; */
  
 }
 

@@ -1,15 +1,17 @@
+import React from "react";
 
-function EducationInfo(){
+function EducationInfo(props){
+    const {startDate, endDate, school, location, degree} = props.education;
     return <div className="education-info">
 
         <p className="education-header">Education</p>
         <div className = "firstline-ed">
-            <p>Dates</p>
-            <p>College</p>
+            <p>{startDate} - {endDate}</p>
+            <p>{school}</p>
         </div>
         <div className = "secondline-ed">
-            <p>Location</p>
-            <p>Degree</p>
+            <p>{location}</p>
+            <p>{degree}</p>
         </div>
         
     </div>
