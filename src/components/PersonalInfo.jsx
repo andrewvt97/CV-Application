@@ -1,6 +1,6 @@
 // PersonalInfo.jsx
 import React from "react";
-import "./styles/Info.css";
+import "../styles/Info.css";
 
 function PersonalInfo(props) {
     const { name, email, phone, address } = props.person;
