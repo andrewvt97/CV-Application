@@ -26,12 +26,12 @@ const EducationInput = ({ onEducationChange }) => {
 
     return (
 
-        <div className="education-input">
-            <p className = "name">Education Details</p>
+        <div className="education-input input-class">
+            <p className = "name">Education</p>
             <p> School </p>
             <input type = "text" name = "school" value = {education.school} onChange={handleInputChange}/>
             <p> Degree </p>
-            <input type = "text" name = "degree" value = {education.address} onChange={handleInputChange}/>
+            <input type = "text" name = "degree" value = {education.degree} onChange={handleInputChange}/>
             <p> Start Date </p>
             <input type = "text" name = "startDate" value = {education.startDate} onChange={handleInputChange}/>
             <p> End Date </p>

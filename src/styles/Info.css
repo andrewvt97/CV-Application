@@ -21,13 +21,26 @@
     display: flex;
 }
 
+/*Personal Input Component */
+.input-class {
+    background-color: white;
+    padding: 10px 0px 15px 20px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+.expucation {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 
 /* Education Info Component */
 .education-header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     text-align: center;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(213, 213, 213);
 }
 
 .firstline-ed {
@@ -39,3 +52,12 @@
     display: flex;
     gap: 50px;
 }
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }

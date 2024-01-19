@@ -27,7 +27,7 @@ const ExperienceInput = ({ onExperienceChange }) => {
 
     return (
 
-        <div className="experience-input">
+        <div className="experience-input input-class">
             <p className = "name">Experience</p>
             <p> Company </p>
             <input type = "text" name = "company" value = {experience.company} onChange={handleInputChange}/>

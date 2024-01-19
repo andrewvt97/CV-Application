@@ -2,9 +2,9 @@ import React from "react";
 
 function ExperienceInfo(props){
     const {startDate, endDate, company, location, position, description} = props.experience;
-    return <div className="education-info">
+    return <div className="education-info expucation">
 
-        <p className="education-header">Education</p>
+        <p className="education-header">Experience</p>
         <div className = "firstline-ed">
             <p>{startDate} - {endDate}</p>
             <p>{company}</p>

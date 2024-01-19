@@ -18,7 +18,7 @@ const PersonalInput = ({ onPersonChange }) => {
     };
 
 return (
-    <div className="personal-input">
+    <div className="personal-input input-class" >
         <p className = "name">Personal Details</p>
         <p> Name </p>
         <input type = "text" name = "name" value = {person.name} onChange={handleInputChange}/>
